@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # syntax:
 # merge_po.sh locale-dir/
@@ -30,7 +30,7 @@ if hash podebug >/dev/null; then
         rm -f $file.old
     done
 
-    for catalog in messages client; do
+    for catalog in messages; do
         echo "Translating ${catalog}.po"
         podebug --rewrite=flipped -i locale/templates/LC_MESSAGES/${catalog}.pot\
                -o locale/db_LB/LC_MESSAGES/${catalog}.po
