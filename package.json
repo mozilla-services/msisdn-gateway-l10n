@@ -1,0 +1,17 @@
+{
+  "name": "msisdn-gateway-l10n",
+  "version": "0.0.0",
+  "description": "l10n assets for MSISDN Gateway",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mozilla-services/msisdn-gateway-l10n.git"
+  },
+  "author": "",
+  "license": "MPL 2",
+  "bugs": {
+    "url": "https://github.com/mozilla-services/msisdn-gateway-l10n/issues"
+  }
+}
